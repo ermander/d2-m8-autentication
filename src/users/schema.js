@@ -1,6 +1,7 @@
 const { Schema } = require("mongoose")
 const mongoose = require("mongoose")
 const bcrypt = require("bcryptjs")
+const v = require("validator")
 
 const UserSchema = new Schema(
     {
